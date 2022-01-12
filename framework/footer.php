@@ -1,0 +1,1 @@
+<? include(getThemeDir()."/footer.php"); ?>

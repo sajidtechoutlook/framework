@@ -1,0 +1,84 @@
+.balance {
+    color: red;
+}
+
+td.data_cell {
+    padding: 0 5px 0 5px;
+}
+
+td.right_padding_cell {
+    padding: 0 5px 0 5px;
+}
+
+.print-only, .print-only *
+{
+    display: none !important;
+}
+
+.hidden {
+    display: none !important;
+    border: 1px solid red;
+    background: none;
+}
+
+input.bold, .bold{
+    font-weight: bold !important;
+}
+
+input.big, .big {
+    font-size: 20px !important;
+}
+
+#bills_to_sync {
+    color: red;
+    padding: 0 50px 0 0;
+}
+@media print
+{
+    body {
+        color: #000000;
+    }
+    .print-center{
+        align-content: center !important;
+    }
+    .input-print {
+        border: 0 !important;
+        background: 0 !important;
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        font-size: 20px !important;
+        line-height: 1.5 !important;
+    }
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+    .print-only, .print-only *
+    {
+        display: block !important;
+    }
+    table, tr, tbody, td, th {
+        font-size: 22px;
+    }
+    html, body {
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: Poppins;
+        -ms-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+    .kt-aside__brand-logo {
+        display: none;
+    }
+    div#kt_footer {
+        display: none;
+    }
+    body {
+        color: #000000;
+    }
+}
